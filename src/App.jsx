@@ -11,15 +11,18 @@ function App() {
   const projectData = [
     {
       title: "Portfolio Website",
-      description: "This very website, built using React and Tailwind CSS to showcase my skills and projects.",
+      description:
+        "This very website, built using React and Tailwind CSS to showcase my skills and projects.",
     },
     {
       title: "E-commerce Store",
-      description: "A fully functional online store with a shopping cart, product pages, and a checkout process.",
+      description:
+        "A fully functional online store with a shopping cart, product pages, and a checkout process.",
     },
     {
       title: "Task Management App",
-      description: "A simple and intuitive app to manage daily tasks, built with React for the frontend.",
+      description:
+        "A simple and intuitive app to manage daily tasks, built with React for the frontend.",
     },
   ];
 

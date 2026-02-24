@@ -8,8 +8,8 @@ export default function Contact() {
         <p className="text-gray-600 mb-8">
           I'm currently open to new opportunities. Feel free to reach out!
         </p>
-        <a 
-          href="mailto:your.email@example.com" 
+        <a
+          href="mailto:your.email@example.com"
           className="bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-600 transition duration-300"
         >
           Email Me
