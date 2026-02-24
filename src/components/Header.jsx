@@ -42,16 +42,7 @@ export default function Header() {
         </a>
       </li>
 
-       <li>
-        <a
-          href="#resume"
-          className="block py-2 hover:text-blue-300"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Resume
-        </a>
-      </li>
-
+      
       <li>
         <a
           href="#contact"
