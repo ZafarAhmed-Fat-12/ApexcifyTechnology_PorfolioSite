@@ -11,7 +11,8 @@ export default function Home() {
           Hi, I'm Zafar Ahmed
         </h1>
         <p className="text-xl md:text-2xl text-gray-900 mb-8">
-          A Frontend Developer specializing in building clean, responsive, and user-friendly web applications
+          A Frontend Developer specializing in building clean, responsive, and
+          user-friendly web applications
         </p>
         <a
           href="#projects"

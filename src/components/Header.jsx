@@ -42,7 +42,7 @@ export default function Header() {
         </a>
       </li>
 
-         <li>
+      <li>
         <a
           href="#resume"
           className="block py-2 hover:text-blue-300"
@@ -51,7 +51,7 @@ export default function Header() {
           Resume
         </a>
       </li>
-      
+
       <li>
         <a
           href="#contact"

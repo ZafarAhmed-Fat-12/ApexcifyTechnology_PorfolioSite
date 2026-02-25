@@ -18,9 +18,9 @@ export default function About() {
 
           <div className="md:w-2/3 text-left">
             <p className="text-gray-900 text-lg">
-              Hello! I'm a passionate web developer with experience in creating
-              modern and responsive web applications using technologies like
-              React, Next.js, and Tailwind CSS. I love solving problems and
+              Hello! I'm a passionate frontend developer with experience in
+              creating modern and responsive web applications using technologies
+              like React, Next.js, and Tailwind CSS. I love solving problems and
               building beautiful, user-friendly interfaces.
             </p>
             <p className="text-gray-900 text-lg mt-4">
