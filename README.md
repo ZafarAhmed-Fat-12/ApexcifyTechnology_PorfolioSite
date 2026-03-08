@@ -23,7 +23,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 This is the source code for my personal portfolio website, built from scratch to showcase my skills, projects, and professional experience as a Frontend Developer. The entire project is built using a modern tech stack including React and Tailwind CSS, and it is fully responsive for all devices.
 
-**Live Demo:** [your-portfolio-link.com](https://your-portfolio-link.com )
+**Live Demo:** [my-portfolio-link.com](https://heartfelt-fenglisu-c5e1e2.netlify.app/#projects)
 
 ---
 
