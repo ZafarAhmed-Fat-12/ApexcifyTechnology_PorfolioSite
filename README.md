@@ -68,6 +68,8 @@ The project is organized into logical components, each with a specific purpose. 
   - A "sticky" header that stays at the top of the page on scroll (`sticky top-0 z-50`).
   - A responsive hamburger menu for mobile devices, controlled by React's `useState` hook.
   - Smooth-scrolling links that navigate to the corresponding sections of the single-page application.
+ Also add logo of my name for a professional portfolio
+
 
 ### 3. `Home.jsx` (The Hero Section)
 
