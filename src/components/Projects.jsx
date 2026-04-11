@@ -36,7 +36,7 @@ export default function Projects() {
     {
       title: "1.  Portfolio Website",
       description:
-        " A complete digital resume and project showcase, designed to provide a clean and engaging overview of my capabilities as a Web developer. Key features include a fully responsive and animated UI, a dynamic project gallery with links to GitHub repositories ",
+        " Welcome to my Portfolio Website, a complete digital resume and project showcase, designed to provide a clean and engaging overview of my capabilities as a Web developer. Key features include a fully responsive and animated UI, a dynamic project gallery with links to GitHub repositories ",
       tech: ["React", "Tailwind CSS", "Vite"],
       githubUrl:
         "https://github.com/ZafarAhmed-Fat-12/HZSoftwareSolution_PorfolioSite",
