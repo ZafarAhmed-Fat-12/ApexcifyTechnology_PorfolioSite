@@ -39,8 +39,8 @@ export default function Skills() {
       iconClass: "devicon-git-plain colored",
     },
     {
-      name: "Figma",
-      iconClass: "devicon-figma-plain colored",
+      name: "C++",
+      iconClass: "devicon-cplusplus-plain colored",
     },
   ];
 
