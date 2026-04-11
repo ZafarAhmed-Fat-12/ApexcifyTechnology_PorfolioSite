@@ -25,7 +25,7 @@ export default function Footer() {
       href: "https://github.com/ZafarAhmed-Fat-12",
       iconClass: "devicon-github-original",
     },
-  
+
   ];
 
   return (
