@@ -52,16 +52,16 @@ export default function Projects() {
     {
       title: "3. Random Password Generator",
       description:
-        "A web application for generating secure, random passwords with customizable options like length, character sets (uppercase, lowercase, numbers, symbols). Built with a clean and intuitive UI.",
-      tech: ["React", "JavaScript", "CSS3"],
+        "A React  website for generating secure, random passwords with customizable options like length, character sets (uppercase, lowercase, numbers, symbols). Generates new passwords with every refresh. Built with a clean and intuitive UI.",
+      tech: ["React", "Tailwind CSS", "Vite"],
       githubUrl:
         "https://github.com/ZafarAhmed-Fat-12/random-password-generator",
     },
     {
       title: "4. Todo List App",
       description:
-        "A simple and intuitive todo list application that allows users to add, edit, delete, and mark tasks as complete. Built with React and styled using Tailwind CSS.",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
+        "A responsive web application designed to help users manage daily tasks efficiently. Features include creating, editing, deleting, and marking tasks as complete with local storage integration for data persistence. Built with React and styled using Tailwind CSS for a clean and modern user interface.",
+      tech: ["React", "Tailwind CSS", "Vite"],
       githubUrl: "https://github.com/ZafarAhmed-Fat-12/todo-app",
     },
     {
