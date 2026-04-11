@@ -67,7 +67,7 @@ export default function Projects() {
     {
       title: "5. Currency converter",
       description:
-        "A responsive web application designed for instant currency conversion, catering to travelers, businesses, and online shoppers. This tool utilizes an external API to fetch up-to-the-minute exchange rates, ensuring accuracy. Technologies used: HTML, CSS, and JavaScript.",
+        "A responsive web application designed for instant currency conversion, catering to travelers, businesses, and online shoppers. This tool utilizes an external API to fetch up-to-the-minute exchange rates, ensuring accuracy, supports multiple currencies. Technologies used: HTML, CSS, and JavaScript. ",
       tech: ["HTML", "CSS", "JavaScript"],
       githubUrl: "https://github.com/ZafarAhmed-Fat-12/currency-converter",
     },
