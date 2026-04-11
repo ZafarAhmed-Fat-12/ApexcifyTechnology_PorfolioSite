@@ -25,16 +25,7 @@ export default function Footer() {
       href: "https://github.com/ZafarAhmed-Fat-12",
       iconClass: "devicon-github-original",
     },
-    {
-      name: "Instagram",
-      href: "https://www.instagram.com/zafar73304?igsh=dWQ5aWI2YWx0YjIz",
-      iconClass: "fa-brands fa-instagram",
-    },
-    {
-      name: "Facebook",
-      href: "https://www.facebook.com/share/1AUtJ1iVYU/",
-      iconClass: "fa-brands fa-facebook",
-    },
+  
   ];
 
   return (
