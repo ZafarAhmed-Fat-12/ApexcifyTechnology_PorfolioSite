@@ -31,7 +31,7 @@ export default function Skills() {
       iconClass: "devicon-tailwindcss-plain colored",
     },
     {
-      name: "python",
+      name: "Python",
       iconClass: "devicon-python-plain colored",
     },
     {
