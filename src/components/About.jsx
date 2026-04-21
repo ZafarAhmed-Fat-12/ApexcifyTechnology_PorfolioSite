@@ -1,5 +1,35 @@
-import { Code2, Zap, Target, Layers } from 'lucide-react';
+import { Code2, Zap, Target, Layers, Briefcase, GraduationCap } from 'lucide-react';
 import profileImage from '../assets/images/zafar2.jpeg';
+
+const experience = [
+  {
+    title: 'Frontend Developer',
+    company: 'Apecify Technologies',
+    period: '2026 - Present',
+    description: 'Developed and maintained user interfaces using React and Tailwind CSS, ensuring responsive design and optimal performance.',
+  },
+  {
+    title: 'Junior Frontend Developer',
+    company: 'HZSoftware solutions',
+    period: '2025 - 2026',
+    description: 'Built responsive web interfaces and contributed to product development.',
+  },
+];
+
+const education = [
+  {
+    degree: 'Bachelor of Science in Computer Science',
+    school: 'Islamia University Bahawalpur',
+    year: 'Continuing',
+    details: 'Specialized in Web Development',
+  },
+  {
+    degree: 'Intermediate in Science',
+    school: 'Government Degree College Ranipur',
+    year: '2023',
+    details: 'Pre-Medical Group, Passing With 83%',
+  },
+];
 export default function About() {
 
 
@@ -15,7 +45,7 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl font-bold text-teal-600">
               MERN Stack  Developer
             </h2>
-            <div className="w-20 h-1 bg-teal-600 rounded-full"></div>
+            <div className="w-20 h-1 bg-teal-600 rounded-full mx-auto"></div>
           </div>
         </div>
 
@@ -35,7 +65,7 @@ export default function About() {
             <div className="space-y-4">
               <h3 className="text-3xl font-bold text-gray-900">About Me</h3>
               <p className="text-lg text-gray-700 leading-relaxed font-medium">
-                As a Full Stack Developer, I thrive on transforming complex problems into
+                As a MERN Stack Developer, I thrive on transforming complex problems into
                 elegant, efficient digital solutions. While I enjoy crafting responsive UIs
                 with React and Tailwind CSS, my core strength is in backend design—designing
                 secure APIs and managing data with precision. My background in computer science
@@ -46,6 +76,51 @@ export default function About() {
             </div>
           </div>
         </div>
+
+
+        <div className="grid md:grid-cols-2 gap-12 mb-20">
+
+          <div className="space-y-8">
+            <div className="flex items-center gap-3 mb-8">
+              <Briefcase className="text-teal-600" size={32} />
+              <h3 className="text-3xl font-bold text-gray-900">Experience</h3>
+            </div>
+
+            {experience.map((job, idx) => (
+              <div key={idx} className="relative pl-6 border-l-2 border-teal-200 pb-6">
+
+                <div className="absolute -left-3 top-0 w-4 h-4 bg-teal-600 rounded-full border-4 border-white"></div>
+
+                <h4 className="text-lg font-bold text-gray-900">{job.title}</h4>
+                <p className="text-teal-600 font-semibold">{job.company}</p>
+                <p className="text-sm text-gray-500 mb-2">{job.period}</p>
+                <p className="text-gray-600 leading-relaxed">{job.description}</p>
+              </div>
+            ))}
+          </div>
+
+
+          <div className="space-y-8">
+            <div className="flex items-center gap-3 mb-8">
+              <GraduationCap className="text-teal-600" size={32} />
+              <h3 className="text-3xl font-bold text-gray-900">Education</h3>
+            </div>
+
+            {education.map((edu, idx) => (
+              <div key={idx} className="relative pl-6 border-l-2 border-teal-200 pb-6">
+
+                <div className="absolute -left-3 top-0 w-4 h-4 bg-teal-600 rounded-full border-4 border-white"></div>
+
+                <h4 className="text-lg font-bold text-gray-900">{edu.degree}</h4>
+                <p className="text-teal-600 font-semibold">{edu.school}</p>
+                <p className="text-sm text-gray-500 mb-2">{edu.year}</p>
+                <p className="text-gray-600 leading-relaxed">{edu.details}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+
 
         <div className="space-y-12 mt-20">
           <div className="space-y-4">
