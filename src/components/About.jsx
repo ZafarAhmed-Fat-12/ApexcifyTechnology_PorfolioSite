@@ -34,7 +34,7 @@ export default function About() {
 
 
   return (
-    <section id="about" className="py-20 md:py-32 bg-white">
+    <section id="about" className="py-5 md:py-8 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="mb-20 space-y-8 text-center">
