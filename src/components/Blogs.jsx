@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-
+import blogImage1 from '../assets/images/blog1.png';
+import blogImage2 from '../assets/images/blog2.png';
+import blogImage3 from '../assets/images/blog3.png';
+import blogImage4 from '../assets/images/blog4.png';
 const Blogs = () => {
   const [activeTab, setActiveTab] = useState('all');
 
@@ -9,36 +12,36 @@ const Blogs = () => {
       title: "Building Scalable REST APIs with Node.js & Express",
       excerpt: "Learn how to create production-ready RESTful APIs using Node.js, Express, JWT authentication, MongoDB, and deployment strategies.",
       date: "2026-04-15",
-      readTime: "25 min",
+      readTime: "10 min",
       category: "backend",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
       slug: "scalable-rest-apis-node-express"
     },
     {
       id: 2,
-      title: "React 18 + Next.js 14: Complete Authentication Flow",
-      excerpt: "Step-by-step guide to implement JWT authentication with NextAuth.js, protected routes, and role-based access control.",
-      date: "2024-03-10",
+      title: "React 18 + Tailwind CSS: Modern Frontend Architecture",
+      excerpt: "Step-by-step guide to building a responsive, performant frontend with React 18 features, Tailwind CSS, and best practices for state management and component design.",
+      date: "2026-04-10",
       readTime: "12 min",
       category: "frontend",
-      image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&h=400&fit=crop",
-      slug: "react-nextjs-authentication"
+      image: blogImage1,
+      slug: "react-tailwind-architecture"
     },
     {
       id: 3,
-      title: "Dockerizing Full Stack MERN Application",
-      excerpt: "Complete guide to containerize your MERN stack app with Docker, Docker Compose, multi-stage builds, and CI/CD pipeline.",
-      date: "2024-03-05",
+      title: "Pushing MERN Stack Apps in to GitHub repositories ",
+      excerpt: "Learn how to push your MERN stack application to GitHub repositories and manage your code effectively.",
+      date: "2026-03-05",
       readTime: "15 min",
       category: "devops",
-      image: "https://images.unsplash.com/photo-1618049358716-2f5c8fdfc859?w=800&h=400&fit=crop",
-      slug: "docker-mern-stack"
+      image: blogImage3,
+      slug: "github-mern-stack"
     },
     {
       id: 4,
       title: "MongoDB Aggregation Pipeline Masterclass",
       excerpt: "Advanced MongoDB aggregation techniques for complex data processing, analytics, and reporting with real-world examples.",
-      date: "2024-02-28",
+      date: "2026-04-20",
       readTime: "10 min",
       category: "backend",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop",
@@ -48,21 +51,21 @@ const Blogs = () => {
       id: 5,
       title: "Tailwind CSS + React: Building Responsive UI Components",
       excerpt: "Create pixel-perfect, responsive components using Tailwind CSS utility classes with React hooks and component patterns.",
-      date: "2024-02-20",
-      readTime: "9 min",
+      date: "2026-04-05",
+      readTime: "12 min",
       category: "frontend",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
+      image: blogImage2,
       slug: "tailwind-react-components"
     },
     {
       id: 6,
-      title: "AWS Deployment: Full Stack App from Zero to Production",
-      excerpt: "Deploy your full stack application on AWS using EC2, RDS, S3, CloudFront, Route 53, and automated deployments.",
-      date: "2024-02-15",
+      title: "Vercel Deployment: Full Stack App from Zero to Production",
+      excerpt: "Deploy your full stack application on Vercel with seamless integration and automated deployments.",
+      date: "2026-04-22",
       readTime: "18 min",
       category: "devops",
-      image: "https://images.unsplash.com/photo-1464632150231-7e4a804b257f?w=800&h=400&fit=crop",
-      slug: "aws-fullstack-deployment"
+      image: blogImage4,
+      slug: "vercel-fullstack-deployment"
     }
   ];
 
