@@ -82,7 +82,7 @@ export default function Projects() {
         "Modern front-end image gallery integrating Pexels API with dynamic content, category filtering, responsive grid layout, and polished lightbox viewer.",
       tech: ["HTML", "CSS", "JavaScript", "API"],
       githubUrl:
-        "https://github.com/ZafarAhmed-Fat-12/HZSoftwareSolutions_ImageGallery",
+        "https://github.com/ZafarAhmed-Developer/ImageGallery",
     },
     {
       title: "Random Password Generator",

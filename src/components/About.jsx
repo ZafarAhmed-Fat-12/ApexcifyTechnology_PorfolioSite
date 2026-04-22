@@ -34,12 +34,12 @@ export default function About() {
 
 
   return (
-    <section id="about" className="py-5 md:py-8 bg-white">
+    <section id="about" className="py-5 md:py-8 bg-slate-950 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="mb-20 space-y-8 text-center">
           <div className="space-y-4">
-            <h1 className="text-6xl md:text-7xl font-black text-gray-900 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-black text-white leading-tight">
               Zafar Ahmed
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-teal-600">
@@ -63,8 +63,8 @@ export default function About() {
 
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="text-3xl font-bold text-gray-900">About Me</h3>
-              <p className="text-lg text-gray-700 leading-relaxed font-medium">
+              <h3 className="text-3xl font-bold text-slate-400">About Me</h3>
+              <p className="text-lg text-slate-400 leading-relaxed font-medium">
                 As a MERN Stack Developer, I thrive on transforming complex problems into
                 elegant, efficient digital solutions. While I enjoy crafting responsive UIs
                 with React and Tailwind CSS, my core strength is in backend design—designing
@@ -83,7 +83,7 @@ export default function About() {
           <div className="space-y-8">
             <div className="flex items-center gap-3 mb-8">
               <Briefcase className="text-teal-600" size={32} />
-              <h3 className="text-3xl font-bold text-gray-900">Experience</h3>
+              <h3 className="text-3xl font-bold text-white">Experience</h3>
             </div>
 
             {experience.map((job, idx) => (
@@ -91,10 +91,10 @@ export default function About() {
 
                 <div className="absolute -left-3 top-0 w-4 h-4 bg-teal-600 rounded-full border-4 border-white"></div>
 
-                <h4 className="text-lg font-bold text-gray-900">{job.title}</h4>
+                <h4 className="text-lg font-bold text-slate-400">{job.title}</h4>
                 <p className="text-teal-600 font-semibold">{job.company}</p>
-                <p className="text-sm text-gray-500 mb-2">{job.period}</p>
-                <p className="text-gray-600 leading-relaxed">{job.description}</p>
+                <p className="text-sm text-slate-400 mb-2">{job.period}</p>
+                <p className="text-slate-400 leading-relaxed">{job.description}</p>
               </div>
             ))}
           </div>
@@ -103,7 +103,7 @@ export default function About() {
           <div className="space-y-8">
             <div className="flex items-center gap-3 mb-8">
               <GraduationCap className="text-teal-600" size={32} />
-              <h3 className="text-3xl font-bold text-gray-900">Education</h3>
+              <h3 className="text-3xl font-bold text-white">Education</h3>
             </div>
 
             {education.map((edu, idx) => (
@@ -111,10 +111,10 @@ export default function About() {
 
                 <div className="absolute -left-3 top-0 w-4 h-4 bg-teal-600 rounded-full border-4 border-white"></div>
 
-                <h4 className="text-lg font-bold text-gray-900">{edu.degree}</h4>
+                <h4 className="text-lg font-bold text-slate-400">{edu.degree}</h4>
                 <p className="text-teal-600 font-semibold">{edu.school}</p>
-                <p className="text-sm text-gray-500 mb-2">{edu.year}</p>
-                <p className="text-gray-600 leading-relaxed">{edu.details}</p>
+                <p className="text-sm text-slate-400 mb-2">{edu.year}</p>
+                <p className="text-slate-400 leading-relaxed">{edu.details}</p>
               </div>
             ))}
           </div>
@@ -124,24 +124,24 @@ export default function About() {
 
         <div className="space-y-12 mt-20">
           <div className="space-y-4">
-            <h3 className="text-4xl font-bold text-gray-900">My Ambitions</h3>
-            <p className="text-lg text-gray-600 max-w-3xl leading-relaxed">
+            <h3 className="text-4xl font-bold text-white">My Ambitions</h3>
+            <p className="text-lg text-slate-400 max-w-3xl leading-relaxed">
               I am driven by the challenge of solving intricate problems through clean, optimized code.
               My goal is to master backend infrastructure and database management, ensuring that every
               application I build is powered by a secure and high-speed core.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 ">
 
-            <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
+            <div className="p-8 border-2 bg-slate-900 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-teal-50 rounded-lg group-hover:bg-teal-600 transition-colors duration-300">
                   <Code2 className="text-teal-600 group-hover:text-white transition-colors duration-300" size={28} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Clean & Optimized Code</h4>
-                  <p className="text-gray-600 leading-relaxed">
+                  <h4 className="text-xl font-bold text-white mb-2">Clean & Optimized Code</h4>
+                  <p className="text-slate-400 leading-relaxed">
                     Writing efficient, maintainable code that solves complex problems with elegance and simplicity.
                   </p>
                 </div>
@@ -149,14 +149,14 @@ export default function About() {
             </div>
 
 
-            <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
+            <div className="p-8 border-2 bg-slate-900 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-teal-50 rounded-lg group-hover:bg-teal-600 transition-colors duration-300">
                   <Zap className="text-teal-600 group-hover:text-white transition-colors duration-300" size={28} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Backend Infrastructure</h4>
-                  <p className="text-gray-600 leading-relaxed">
+                  <h4 className="text-xl font-bold text-white mb-2">Backend Infrastructure</h4>
+                  <p className="text-slate-400 leading-relaxed">
                     Mastering server architecture, APIs, and system design to build powerful backend solutions.
                   </p>
                 </div>
@@ -164,14 +164,14 @@ export default function About() {
             </div>
 
 
-            <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
+            <div className="p-8 border-2 bg-slate-900 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-teal-50 rounded-lg group-hover:bg-teal-600 transition-colors duration-300">
                   <Target className="text-teal-600 group-hover:text-white transition-colors duration-300" size={28} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Database Management</h4>
-                  <p className="text-gray-600 leading-relaxed">
+                  <h4 className="text-xl font-bold text-white mb-2">Database Management</h4>
+                  <p className="text-slate-400 leading-relaxed">
                     Designing secure, high-speed databases that ensure data integrity and optimal performance.
                   </p>
                 </div>
@@ -179,14 +179,14 @@ export default function About() {
             </div>
 
 
-            <div className="p-8 border-2 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
+            <div className="p-8 border-2 bg-slate-900 border-gray-200 rounded-lg hover:border-teal-600 hover:shadow-lg transition-all duration-300 group">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-teal-50 rounded-lg group-hover:bg-teal-600 transition-colors duration-300">
                   <Layers className="text-teal-600 group-hover:text-white transition-colors duration-300" size={28} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Secure & Fast Applications</h4>
-                  <p className="text-gray-600 leading-relaxed">
+                  <h4 className="text-xl font-bold text-white mb-2">Secure & Fast Applications</h4>
+                  <p className="text-slate-400 leading-relaxed">
                     Building applications with security at the core and performance as a priority.
                   </p>
                 </div>
