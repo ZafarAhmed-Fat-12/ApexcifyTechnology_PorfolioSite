@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="font-sans bg-white min-h-screen w-full overflow-x-hidden">
       <Header className="fixed top-0 z-50" />
-      <main>
+      <main >
         <animatedSection>
           <Home />
         </animatedSection>
